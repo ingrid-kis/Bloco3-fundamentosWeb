@@ -1,0 +1,62 @@
+/* Estilos da pág index.html */
+
+.center {
+    text-align:center;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 1.25rem;
+}    
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+#menu li a:hover {
+    color: grey;
+}
+
+.p-30 {
+    padding: 1.875rem;
+}
+
+/*? Para deixar a borda da img redonda */
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300 {
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
+.tam-rsocial {
+    width: 2rem;
+    height: 2rem;
+    padding: 1.5rem;
+}
+
+.mb-50 {
+    margin-bottom: 3.125rem;
+}
+
+
+/* Estilos da pág contato.html */
+
+.ml-50 {
+    margin-left:3.125rem ;
+}
