@@ -68,7 +68,7 @@ function validaAssunto() {
     if (assunto.value.length >=140) {
         txtAssunto.innerHTML = "Texto grande, digite até 140 caracteres";
         txtAssunto.style.color = "red";
-        txtAssunto.style.display = "block"; //não funciona pq??
+        txtAssunto.style.display = "block";
     } else {
         txtAssunto.style.display = "none";
         assuntoOk = true;
@@ -83,13 +83,12 @@ function enviar() {
     }
 }
 
-function mapaZoom(){ //não funciona pq??
+function mapaZoom(){
     mapa.style.width = "50rem";
     mapa.style.height = "37.5rem";
 }
 
-function mapaNormal(){ //não funciona pq??
+function mapaNormal(){
     mapa.style.width = "400px";
     mapa.style.height = "350px";
-}
 }
